@@ -40,7 +40,7 @@ OBJSGNL = $(SRCSGNLF:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJS) $(OBJSLIB) $(OBJSPR) $(OBJSGNL)
-	@$(COMPILER) $(OBJS) $(OBJSLIB) $(OBJSPR) $(OBJSGNL) -Lmlx_linux -lmlx_Linux -L/usr/lib -Imlx_linux -lXext -lX11 -lm -lz -o so_long
+	@$(COMPILER) $(OBJS) $(OBJSLIB) $(OBJSPR) $(OBJSGNL) -Lmlx_linux1 -lmlx_Linux -L/usr/lib -Imlx_linux1 -lXext -lX11 -lm -lz -o so_long
 
 clean:
 	@rm -f *.o libft/*.o printf/*.o getnextline/*.o

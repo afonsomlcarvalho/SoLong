@@ -6,14 +6,14 @@
 /*   By: amorais- <amorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 14:00:54 by amorais-          #+#    #+#             */
-/*   Updated: 2023/01/30 12:27:00 by amorais-         ###   ########.fr       */
+/*   Updated: 2023/10/19 18:00:01 by amorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 # define SO_LONG_H
 
-# include "mlx_linux/mlx.h"
+# include "mlx_linux1/mlx.h"
 # include "getnextline/get_next_line.h"
 # include "printf/ft_printf.h"
 # include <math.h>
